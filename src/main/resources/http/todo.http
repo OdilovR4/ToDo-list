@@ -1,0 +1,23 @@
+### ToDo create
+POST localhost:8080/todo/creating
+Content-Type: application/json
+
+{
+  "title": "Coding",
+  "content": "Leetcode"
+}
+
+### Get all
+GET localhost:8080/todo/allTasks
+
+### Ticking task to know it is done
+PUT localhost:8080/todo/ticking/d8148d41-9860-4715-ac3b-bbd727481a66
+
+### Get doneTask
+GET localhost:8080/todo/doneTasks
+
+### Get undoneTask
+GET localhost:8080/todo/undoneTasks
+
+### Delete task altogether
+DELETE localhost:8080/todo/deleting/d8148d41-9860-4715-ac3b-bbd727481a66
